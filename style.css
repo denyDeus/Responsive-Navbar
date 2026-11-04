@@ -1,3 +1,11 @@
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
 .navbar-brand {
     font-weight: 500;
     color:#009970;
@@ -57,4 +65,21 @@
         width: 100%;
         visibility: visible;
     }
+}
+
+.hero-section {
+    background: url(hero-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
